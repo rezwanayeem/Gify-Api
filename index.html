@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animal gify</title>
+
+  <!-- Link to the jQuery Library -->
+  <script src="https://code.jquery.com/jquery-2.2.3.js" integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4=" crossorigin="anonymous"></script>
+
+	<!-- Link to CSS -->
+	<link rel="stylesheet" href="./Assets/css/style.css">
+	
+</head>
+
+<body>
+  <div class="container"><br>
+
+		<header class="jumbotron">
+			<h1>Gify</h1>
+		</header>
+		<div id="buttons-view"></div><br>
+
+		<!-- Submit animal form -->
+		<form class="navbar-form navbar-right" id="animal-form">
+			<div class="form-group">
+				<label for="animal-input"><h3>Add animal</h3></label>
+			</div>
+			<input type="text" id="animal-input"><br>
+		<!-- Button added new animal -->
+			<input id="add-animal" button type="submit" class="btn btn-deafult" value="Submit">
+		</form>
+
+       <div id="animals-view" data-state="still"></div>
+  	</div>
+	 
+<!--Link to Javascript-->
+		<script type="text/javascript" src="./Assets/js/app.js"></script>
+</body>
+</html>
